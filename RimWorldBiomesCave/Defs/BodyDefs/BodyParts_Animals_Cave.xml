@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BodyPartDef>
+    <defName>RWBSlimeBody</defName>
+    <label>body</label>
+    <hitPoints>40</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBSlimeHead</defName>
+    <label>head</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBSlimeMouth</defName>
+    <label>mouth</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBMucousGland</defName>
+    <label>mucous gland</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBSnailHead</defName>
+    <label>head</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBRightEyeStalk</defName>
+    <label>eyestalk</label>
+    <hitPoints>10</hitPoints>
+    <oldInjuryBaseChance>1</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBLeftEyeStalk</defName>
+    <label>eyestalk</label>
+    <hitPoints>10</hitPoints>
+    <oldInjuryBaseChance>1</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBSnailMouth</defName>
+    <label>mouth</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBSnailFoot</defName>
+    <label>snail foot</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBCephalothorax</defName>
+    <label>caphalothorax</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BreathingPathway</li>
+      <li>EatingPathway</li>
+      <li>TalkingPathway</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBLeftPedipalp</defName>
+    <label>left pedipalp</label>
+    <hitPoints>15</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBRightPedipalp</defName>
+    <label>right pedipalp</label>
+    <hitPoints>15</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBSecondMiddleLeftInsectLeg</defName>
+    <label>second middle left leg</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RWBSecondMiddleRightInsectLeg</defName>
+    <label>second middle right leg</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+</Defs>

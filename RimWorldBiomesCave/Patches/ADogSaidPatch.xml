@@ -3,10 +3,10 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-            <li Class="ModCheck.isModLoaded">
+            <!--<li Class="ModCheck.isModLoaded">
                 <modName>A Dog Said...</modName>
-                <yourMod>Biomes</yourMod>
-            </li>
+                <yourMod>Biomes! Cavern Edition</yourMod>
+            </li>-->
 			<!-- Organ installing recipes == should be most animals -->
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
@@ -335,10 +335,6 @@
 				</value>
 			</li>
 
-
-			
-
-
 			<!-- Tail installing recipe == Only for animal with tail-->
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallSimpleProstheticTailAnimal surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
@@ -352,10 +348,8 @@
 					<li>RWBVampireMoth</li> 
 
 				</value>
-			</li>
-
-
-			
+			</li>	
+      
 		</operations>
 	</Operation>
 	

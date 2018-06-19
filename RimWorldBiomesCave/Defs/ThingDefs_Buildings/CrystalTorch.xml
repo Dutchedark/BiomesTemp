@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
- 
+
 <Defs>
- 
- <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>CrystalTorchLamp</defName>
     <label>Crystal Torch</label>
     <description>A wooden torch for lighting an area. Made with these intricate glowing crystals found in caves.</description>
     <category>Building</category>
     <graphicData>
-        <color>(170,219,255)</color>
+      <color>(170,219,255)</color>
       <texPath>Buildings/CrystalTorchLamp</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
@@ -30,12 +29,12 @@
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
-	<stuffCategories>
+    <stuffCategories>
       <li>Woody</li>
     </stuffCategories>
     <costStuffCount>20</costStuffCount>
     <costList>
-        <RWBCrystalShards>25</RWBCrystalShards>
+      <RWBCrystalShards>25</RWBCrystalShards>
     </costList>
     <soundImpactDefault>BulletImpactGround</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -48,7 +47,6 @@
     </comps>
     <designationCategory>Furniture</designationCategory>
     <designationHotKey>Misc10</designationHotKey>
-	<minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
   </ThingDef>
-  
 </Defs>

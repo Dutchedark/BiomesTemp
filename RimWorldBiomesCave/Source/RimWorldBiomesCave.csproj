@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7D21B4A-1DA7-41D8-B202-C58CA8FA62AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RimWorldBiomesCave</RootNamespace>
+    <AssemblyName>RimWorldBiomesCave</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\RimWorldBiomesCave - Release\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=1.0.9.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RimWorldBiomes\Biomes\RimWorldBiomesCore\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <None Include="..\About\About-Debug.xml" />
+    <None Include="..\About\About-Release.xml" />
+    <None Include="..\About\Preview.png" />
+    <None Include="..\Defs\ApparelDefs\Apparel.xml" />
+    <None Include="..\Defs\BodyDefs\Bodies_Animals_Cave.xml" />
+    <None Include="..\Defs\BodyDefs\BodyParts_Animals_Cave.xml" />
+    <None Include="..\Defs\DamageDefs\Damages_Acid.xml" />
+    <None Include="..\Defs\DamageDefs\Damages_Bites.xml" />
+    <None Include="..\Defs\DrugDefs\BluebellCuts.xml" />
+    <None Include="..\Defs\FleshTypeDefs\FleshTypeDef.xml" />
+    <None Include="..\Defs\JobDefs\Jobs_Animals_Cave.xml" />
+    <None Include="..\Defs\LifeStageDefs\LifeStageDef.xml" />
+    <None Include="..\Defs\Maneuvers\Maneuvers.xml" />
+    <None Include="..\Defs\SoundDefs\Pawn_Animal_Misc_Vox.xml" />
+    <None Include="..\Defs\TerrainDefs\OreWalls.xml" />
+    <None Include="..\Defs\TerrainDefs\Stalagmite.xml" />
+    <None Include="..\Defs\TerrainDefs\Terrain_Floors.xml" />
+    <None Include="..\Defs\ThingDefs_Buildings\Cocoons.xml" />
+    <None Include="..\Defs\ThingDefs_Buildings\CrystalTorch.xml" />
+    <None Include="..\Defs\ThingDefs_Buildings\PlanterBox.xml" />
+    <None Include="..\Defs\ThingDefs_Buildings\SolarPanels.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Manufactured\Cave\SporeContainer.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Resources\Cave\Eggs.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Resources\Cave\FungalLog.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Resources\Cave\Ores.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Resources\Cave\Resource_AnimalProducts.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Resources\Cave\Resource_RawPlant.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Weapons\Cave\Weapons_Grenades.xml" />
+    <None Include="..\Defs\ThingDefs_Items\Weapons\Cave\Weapons_Melee.xml" />
+    <None Include="..\Defs\ThingDefs_Misc\Filth_Slime.xml" />
+    <None Include="..\Defs\ThingDefs_Misc\Particles.xml" />
+    <None Include="..\Defs\ThingDefs_Plants\Cave\Plants_Cultivated_Cave.xml" />
+    <None Include="..\Defs\ThingDefs_Plants\Cave\Plants_WIld_Cave.xml" />
+    <None Include="..\Defs\ThingDefs_Races\Cave\Races_Animal_Cave.xml" />
+    <None Include="..\Defs\ThinkTrees\Amphibian.xml" />
+    <None Include="..\Defs\ToolCapacityDefs\ToolCapacity.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\HediffDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\NeedDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\RecipeDef\Ores.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\RecipeDef\SporeContainer.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingCategoryDef\Cocoons.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Apparel.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\BovineBeetle.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\CaveSpider.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Cocoons.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\CrystalCrab.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Eggs.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\FruitBat.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\FungalLog.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\GiantSnail.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\JellyPot.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Maxolotl.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Mole.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Ores.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\OreWalls.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\PaleLizard.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Particles.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Pillbug.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Resource_AnimalProducts.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Resource_RawPlant.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\RoyalRhinoBeetle.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Slime.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\SpectreShrimp.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\SporeContainer.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Stalagmite.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\VampireBat.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\VampireMoth.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Weapons_Grenades.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThingDef\Weapons_Melee.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ThoughtDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\ChineseSimplified\DefInjected\ToolCapacityDef\ToolCapacity.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\BodyDef\Bodies_Animal_Bats.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\BodyDef\Bodies_Animal_Slime.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\BodyDef\Bodies_Animal_Snail.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\BodyDef\Bodies_Animal_Spider.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\BodyPartDef\BodyParts_Slime.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\BodyPartDef\BodyParts_Snail.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\BodyPartDef\BodyParts_Spider.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ChemicalDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\DamageDef\DamageDefs.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\HediffDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\JobDef\SpinCocoon.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\JobDef\VampireBite.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\LifeStageDef\LifeStages.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\NeedDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\BovineBeetle.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\CaveSpider.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\CrystalCrab.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\FruitBat.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\GiantSnail.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\JellyPot.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\Maxolotl.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\Mole.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\PaleLizard.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\Pillbug.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\RoyalRhinoBeetle.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\Slime.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\SpectreShrimp.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\VampireBat.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\PawnKindDef\VampireMoth.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\RecipeDef\Ores.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\RecipeDef\Recipes_Add_Administer.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\RecipeDef\Recipes_Add_Make.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\RecipeDef\SporeContainer.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingCategoryDef\Cocoons.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Apparel.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\BovineBeetle.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Buildings_Natural.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\CaveSpider.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Cocoons.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Crops.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\CrystalCrab.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\CrystalTorch.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Eggs.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Filth_Various.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\FruitBat.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\FungalLog.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\GiantSnail.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Growing Plot.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\JellyPot.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Maxolotl.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Mole.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Mushrooms.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Ores.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\OreWalls.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\PaleLizard.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Particles.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Pillbug.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Resource_AnimalProducts.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Resource_RawPlant.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\RoyalRhinoBeetle.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Slime.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\SolarPanels.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\SpectreShrimp.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\SporeContainer.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Stalagmite.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\VampireBat.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\VampireMoth.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\WaterFungus.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Weapons_Grenades.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\Weapons_Melee.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThingDef\_Terrain_Extra.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ThoughtDef\Bluebell Cuts.xml" />
+    <None Include="..\Languages\Japanese\DefInjected\ToolCapacityDef\ToolCapacity.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimalGlow.cs" />
+    <Compile Include="BiomesCaveMod.cs" />
+    <Compile Include="BiomesCaveSettings.cs" />
+    <Compile Include="Building_Cocoon.cs" />
+    <Compile Include="Building_Stalagmite.cs" />
+    <Compile Include="CompAnimalGlower.cs" />
+    <Compile Include="CompAuraParticle.cs" />
+    <Compile Include="CompBiomeSpecific.cs" />
+    <Compile Include="CompIgnoreDeepWater.cs" />
+    <Compile Include="CompPowerPlantSolar.cs" />
+    <Compile Include="CompProjectileAura.cs" />
+    <Compile Include="CompPropertiesAnimalGlower.cs" />
+    <Compile Include="CompPropertiesAura.cs" />
+    <Compile Include="CompPropertiesProjectileAura.cs" />
+    <Compile Include="CompProperties_AuraParticle.cs" />
+    <Compile Include="CompProperties_BiomeSpecific.cs" />
+    <Compile Include="CompProperties_IgnoreDeepWater.cs" />
+    <Compile Include="CompProperties_ReactiveDefense.cs" />
+    <Compile Include="CompProperties_Regenerate.cs" />
+    <Compile Include="CompProperties_Trail.cs" />
+    <Compile Include="CompProperties_Vampire.cs" />
+    <Compile Include="CompProperties_WaterAnimal.cs" />
+    <Compile Include="CompProperties_WaterPlant.cs" />
+    <Compile Include="CompReactiveDefense.cs" />
+    <Compile Include="CompRegenerate.cs" />
+    <Compile Include="CompVampire.cs" />
+    <Compile Include="CompWaterAnimal.cs" />
+    <Compile Include="CompWaterPlant.cs" />
+    <Compile Include="Comp_Trail.cs" />
+    <Compile Include="GenStep_WaterAnimal.cs" />
+    <Compile Include="GenStep_WaterPlant.cs" />
+    <Compile Include="Harmony_BiomePatches.cs" />
+    <Compile Include="JobDriver_SpinCocoon.cs" />
+    <Compile Include="JobDriver_VampireBite.cs" />
+    <Compile Include="JobGiver_CocoonCorpse.cs" />
+    <Compile Include="JobGiver_WanderWater.cs" />
+    <Compile Include="JobGiver_WanderWaterAnywhere.cs" />
+    <Compile Include="JobGiver_WanderWaterHerd.cs" />
+    <Compile Include="ProjectileAura.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RWBDefOf.cs" />
+    <Compile Include="Spider.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(SolutionDir)..\..\RimWorldWin.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>echo F|xcopy "$(ProjectDir)..\About\About-$(ConfigurationName).xml" "$(TargetDir)..\About\About.xml" /C /Y /K /Q /D
+IF /I "$(ConfigurationName)" == "Release"; echo F|xcopy "$(ProjectDir)..\About\Preview.png" "$(TargetDir)..\About\Preview.png" /S /C /Y /K /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Assemblies" "$(TargetDir)..\Assemblies" /S /C /Y /K /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Defs" "$(TargetDir)..\Defs" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Patches" "$(TargetDir)..\Patches" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Languages" "$(TargetDir)..\Languages" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Sounds" "$(TargetDir)..\Sounds" /S /C /Y /K  /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; xcopy "$(ProjectDir)..\Textures" "$(TargetDir)..\Textures" /S /C /Y /K /I /Q /D
+IF /I "$(ConfigurationName)" == "Release"; IF EXIST "$(ProjectDir)..\LICENSE"; copy "$(ProjectDir)..\LICENSE" "$(TargetDir)..\LICENSE" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

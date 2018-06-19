@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>AcidAttack</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>Acid</label>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has dissolved due to acid</deathMessage>
+    <hediff>Burn</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <armorCategory>Heat</armorCategory>
+    <spreadOut>true</spreadOut>
+    <explosionDamage>50</explosionDamage>
+    <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+    <explosionBuildingDamageFactor>2</explosionBuildingDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
+    <explosionColorCenter>(0.6, 0.8, 0.1 )</explosionColorCenter>
+    <explosionColorEdge>(0.6, 1, 0.3)</explosionColorEdge>
+    <soundExplosion>Explosion_Flame</soundExplosion>
+    <combatLogRules>Damage_Flame</combatLogRules>
+  </DamageDef>
+</Defs>

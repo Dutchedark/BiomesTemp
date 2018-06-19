@@ -1,6 +1,0 @@
-C:\Users\boals\Documents\GitHub\RimWorldBiomes\Biomes\RimWorldBiomesCave\Source\RimWorldBiomesCaves\RimWorldBiomesCaves\bin\Debug\RimWorldBiomesCaves.dll
-C:\Users\boals\Documents\GitHub\RimWorldBiomes\Biomes\RimWorldBiomesCave\Source\RimWorldBiomesCaves\RimWorldBiomesCaves\bin\Debug\0Harmony.dll
-C:\Users\boals\Documents\GitHub\RimWorldBiomes\Biomes\RimWorldBiomesCave\Source\RimWorldBiomesCaves\RimWorldBiomesCaves\obj\Debug\RimWorldBiomesCave.csprojResolveAssemblyReference.cache
-C:\Users\boals\Documents\GitHub\RimWorldBiomes\Biomes\RimWorldBiomesCave\Source\RimWorldBiomesCaves\RimWorldBiomesCaves\obj\Debug\RimWorldBiomesCave.csproj.CoreCompileInputs.cache
-C:\Users\boals\Documents\GitHub\RimWorldBiomes\Biomes\RimWorldBiomesCave\Source\RimWorldBiomesCaves\RimWorldBiomesCaves\obj\Debug\RimWorldBiomesCave.csproj.CopyComplete
-C:\Users\boals\Documents\GitHub\RimWorldBiomes\Biomes\RimWorldBiomesCave\Source\RimWorldBiomesCaves\RimWorldBiomesCaves\obj\Debug\RimWorldBiomesCaves.dll

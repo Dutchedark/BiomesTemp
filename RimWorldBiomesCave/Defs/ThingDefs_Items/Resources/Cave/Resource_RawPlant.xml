@@ -19,6 +19,9 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
     </comps>
+    <thingCategories>
+      <li>FoodsCavern</li>
+    </thingCategories>
   </ThingDef>
   
   <ThingDef ParentName="RoughPlantBase">
@@ -39,9 +42,9 @@
               <rotDestroys>true</rotDestroys>
           </li>
       </comps>
-      <thingCategories>
-          <li>Foods</li>
-      </thingCategories>
+    <thingCategories>
+      <li>FoodsCavern</li>
+    </thingCategories>
       <ingestible>
           <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
       </ingestible>
@@ -64,6 +67,9 @@
               <rotDestroys>true</rotDestroys>
           </li>
       </comps>
+    <thingCategories>
+      <li>FoodsCavern</li>
+    </thingCategories>
       <ingestible>
           <preferability>RawTasty</preferability>
           <tasteThought></tasteThought>
@@ -155,6 +161,9 @@
               <glowColor>(113,141,117,1)</glowColor>
           </li>
       </comps>
+    <thingCategories>
+      <li>FoodsCavern</li>
+    </thingCategories>
   </ThingDef>
   
   <ThingDef ParentName="ResourceBase">

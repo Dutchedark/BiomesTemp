@@ -7,7 +7,7 @@
 		<soundImpactDefault>BulletImpactGround</soundImpactDefault>
 		<selectable>false</selectable>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<filthLeaving>FilthDirt</filthLeaving>
+		<filthLeaving>Filth_Dirt</filthLeaving>
 		<blockWind>false</blockWind>
 		<graphicData>
 		  <texPath>Particles/Skulltop_Spore</texPath>
@@ -31,7 +31,7 @@
 		<neverMultiSelect>true</neverMultiSelect>
 			<castEdgeShadows>false</castEdgeShadows>
 		 <comps>
-		   	<li Class="RimWorldBiomesCore.CompProperties_AuraParticle">
+		   	<li Class="RimWorldBiomesCave.CompProperties_AuraParticle">
 		            <hediff>ToxicBuildup</hediff>
 		            <severity>0.00025</severity>
 		            <releasedBy>plant</releasedBy>
@@ -49,7 +49,7 @@
         <soundImpactDefault>BulletImpactGround</soundImpactDefault>
         <selectable>false</selectable>
         <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-        <filthLeaving>FilthDirt</filthLeaving>
+        <filthLeaving>Filth_Dirt</filthLeaving>
         <blockWind>false</blockWind>
         <graphicData>
             <texPath>Particles/Skulltop_Spore</texPath>
@@ -73,7 +73,7 @@
         <neverMultiSelect>true</neverMultiSelect>
         <castEdgeShadows>false</castEdgeShadows>
         <comps>
-            <li Class="RimWorldBiomesCore.CompProperties_AuraParticle">
+            <li Class="RimWorldBiomesCave.CompProperties_AuraParticle">
                 <duration>5</duration>
                 <hediff>ToxicBuildup</hediff>
                 <severity>0.0005</severity>
@@ -92,7 +92,7 @@
         <soundImpactDefault>BulletImpactGround</soundImpactDefault>
         <selectable>false</selectable>
         <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-        <filthLeaving>FilthDirt</filthLeaving>
+        <filthLeaving>Filth_Dirt</filthLeaving>
         <blockWind>false</blockWind>
         <graphicData>
             <texPath>Particles/Skulltop_Spore</texPath>
@@ -116,7 +116,7 @@
         <neverMultiSelect>true</neverMultiSelect>
         <castEdgeShadows>false</castEdgeShadows>
         <comps>
-            <li Class="RimWorldBiomesCore.CompProperties_AuraParticle">
+            <li Class="RimWorldBiomesCave.CompProperties_AuraParticle">
                 <duration>5</duration>
                 <hediff>ToxicBuildup</hediff>
                 <severity>0.00075</severity>

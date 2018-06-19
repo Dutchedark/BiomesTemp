@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!--<li Class="ModCheck.isModLoaded">
+        <modName>Terra Core/Framework</modName>
+        <yourMod>RimWorldBiomesCave</yourMod>
+        <customErrorFail>{0} is not loaded. So Biomes! won't work</customErrorFail>
+        <customMessageSuccess>{0} is loaded, have fun with content-rich Caves</customMessageSuccess>
+      </li>-->
+      <li Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <!--<li Class="ModCheck.FindFile">
+            <file>Biomes_Caves.xml</file>
+          </li>-->
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/BiomeDef[defName="CaveOasis"]/wildPlants</xpath>
+            <value>
+              <wildPlants>
+                <MushroomCluster>8.0</MushroomCluster>
+                <SkullTop>0.001</SkullTop>
+                <Agarilux>0.4</Agarilux>
+                <Bryolux>5.0</Bryolux>
+                <Glowstool>2.0</Glowstool>
+                <MushroomTree>3.0</MushroomTree>
+                <GlowfruitTree>2.0</GlowfruitTree>
+                <SpectreCap>1.0</SpectreCap>
+                <StarlightShroom>1.5</StarlightShroom>
+              </wildPlants>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/BiomeDef[defName="CaveOasis"]/wildAnimals</xpath>
+            <value>
+              <wildAnimals>
+                <RWBSlug>0.1</RWBSlug>
+                <RWBMossBeetle>0.1</RWBMossBeetle>
+                <RWBPaleLizard>2.0</RWBPaleLizard>
+                <RWBJellypotBug>0.08</RWBJellypotBug>
+                <RWBMole>0.2</RWBMole>
+                <RWBFruitBat>0.19</RWBFruitBat>
+                <RWBVampireBat>0.18</RWBVampireBat>
+                <RWBBovineBeetle>0.17</RWBBovineBeetle>
+                <RWBGiantSnail>0.12</RWBGiantSnail>
+                <RWBCrystalCrab>0.1</RWBCrystalCrab>
+                <RWBRhinoBeetle>0.1</RWBRhinoBeetle>
+                <RWBSlime>0.07</RWBSlime>
+                <RWBVampireMoth>0.06</RWBVampireMoth>
+                <RWBPillbug>0.08</RWBPillbug>
+                <RWBCaveSpider>0.02</RWBCaveSpider>
+              </wildAnimals>
+            </value>
+          </li>
+
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/BiomeDef[defName="TunnelworldCave"]/wildPlants</xpath>
+            <value>
+              <wildPlants>
+                <MushroomCluster>8.0</MushroomCluster>
+                <SkullTop>0.001</SkullTop>
+                <Agarilux>0.4</Agarilux>
+                <Bryolux>5.0</Bryolux>
+                <Glowstool>2.0</Glowstool>
+                <MushroomTree>3.0</MushroomTree>
+                <GlowfruitTree>2.0</GlowfruitTree>
+                <SpectreCap>1.0</SpectreCap>
+                <StarlightShroom>1.5</StarlightShroom>
+              </wildPlants>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/BiomeDef[defName="TunnelworldCave"]/wildAnimals</xpath>
+            <value>
+              <wildAnimals>
+                <RWBSlug>0.1</RWBSlug>
+                <RWBMossBeetle>0.1</RWBMossBeetle>
+                <RWBPaleLizard>2.0</RWBPaleLizard>
+                <RWBJellypotBug>0.08</RWBJellypotBug>
+                <RWBMole>0.2</RWBMole>
+                <RWBFruitBat>0.19</RWBFruitBat>
+                <RWBVampireBat>0.18</RWBVampireBat>
+                <RWBBovineBeetle>0.17</RWBBovineBeetle>
+                <RWBGiantSnail>0.12</RWBGiantSnail>
+                <RWBCrystalCrab>0.1</RWBCrystalCrab>
+                <RWBRhinoBeetle>0.1</RWBRhinoBeetle>
+                <RWBSlime>0.07</RWBSlime>
+                <RWBVampireMoth>0.06</RWBVampireMoth>
+                <RWBPillbug>0.08</RWBPillbug>
+                <RWBCaveSpider>0.02</RWBCaveSpider>
+              </wildAnimals>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/BiomeDef[defName="CaveEntrance"]/wildPlants</xpath>
+            <value>
+                <MushroomCluster>8.0</MushroomCluster>
+                <SkullTop>0.001</SkullTop>
+                <Agarilux>0.4</Agarilux>
+                <Bryolux>5.0</Bryolux>
+                <Glowstool>2.0</Glowstool>
+                <MushroomTree>3.0</MushroomTree>
+                <GlowfruitTree>2.0</GlowfruitTree>
+                <SpectreCap>1.0</SpectreCap>
+                <StarlightShroom>1.5</StarlightShroom>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/BiomeDef[defName="CaveEntrance"]/wildAnimals</xpath>
+            <value>
+                <RWBSlug>0.1</RWBSlug>
+                <RWBMossBeetle>0.1</RWBMossBeetle>
+                <RWBPaleLizard>2.0</RWBPaleLizard>
+                <RWBJellypotBug>0.08</RWBJellypotBug>
+                <RWBMole>0.2</RWBMole>
+                <RWBFruitBat>0.19</RWBFruitBat>
+                <RWBVampireBat>0.18</RWBVampireBat>
+                <RWBBovineBeetle>0.17</RWBBovineBeetle>
+                <RWBGiantSnail>0.12</RWBGiantSnail>
+                <RWBCrystalCrab>0.1</RWBCrystalCrab>
+                <RWBRhinoBeetle>0.1</RWBRhinoBeetle>
+                <RWBSlime>0.07</RWBSlime>
+                <RWBVampireMoth>0.06</RWBVampireMoth>
+                <RWBPillbug>0.08</RWBPillbug>
+                <RWBCaveSpider>0.02</RWBCaveSpider>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/BiomeDef[defName="InfestedMountains"]/wildPlants</xpath>
+            <value>
+              <wildPlants>
+                <MushroomCluster>8.0</MushroomCluster>
+                <SkullTop>0.001</SkullTop>
+                <Agarilux>0.4</Agarilux>
+                <Bryolux>5.0</Bryolux>
+                <Glowstool>2.0</Glowstool>
+                <MushroomTree>3.0</MushroomTree>
+                <GlowfruitTree>2.0</GlowfruitTree>
+                <SpectreCap>1.0</SpectreCap>
+                <StarlightShroom>1.5</StarlightShroom>
+              </wildPlants>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/BiomeDef[defName="InfestedMountains"]/wildAnimals</xpath>
+            <value>
+              <wildAnimals>
+                <RWBSlug>0.1</RWBSlug>
+                <RWBMossBeetle>0.1</RWBMossBeetle>
+                <RWBPaleLizard>2.0</RWBPaleLizard>
+                <RWBJellypotBug>0.08</RWBJellypotBug>
+                <RWBMole>0.2</RWBMole>
+                <RWBFruitBat>0.19</RWBFruitBat>
+                <RWBVampireBat>0.18</RWBVampireBat>
+                <RWBBovineBeetle>0.17</RWBBovineBeetle>
+                <RWBGiantSnail>0.12</RWBGiantSnail>
+                <RWBCrystalCrab>0.1</RWBCrystalCrab>
+                <RWBRhinoBeetle>0.1</RWBRhinoBeetle>
+                <RWBSlime>0.07</RWBSlime>
+                <RWBVampireMoth>0.06</RWBVampireMoth>
+                <RWBPillbug>0.08</RWBPillbug>
+                <RWBCaveSpider>0.02</RWBCaveSpider>
+              </wildAnimals>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/BiomeDef[defName="DeepRavine"]/wildPlants</xpath>
+            <value>
+              <wildPlants>
+                <MushroomCluster>8.0</MushroomCluster>
+                <SkullTop>0.001</SkullTop>
+                <Agarilux>0.4</Agarilux>
+                <Bryolux>5.0</Bryolux>
+                <Glowstool>2.0</Glowstool>
+                <MushroomTree>3.0</MushroomTree>
+                <GlowfruitTree>2.0</GlowfruitTree>
+                <SpectreCap>1.0</SpectreCap>
+                <StarlightShroom>1.5</StarlightShroom>
+              </wildPlants>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/BiomeDef[defName="DeepRavine"]/wildAnimals</xpath>
+            <value>
+              <wildAnimals>
+                <RWBSlug>0.1</RWBSlug>
+                <RWBMossBeetle>0.1</RWBMossBeetle>
+                <RWBPaleLizard>2.0</RWBPaleLizard>
+                <RWBJellypotBug>0.08</RWBJellypotBug>
+                <RWBMole>0.2</RWBMole>
+                <RWBFruitBat>0.19</RWBFruitBat>
+                <RWBVampireBat>0.18</RWBVampireBat>
+                <RWBBovineBeetle>0.17</RWBBovineBeetle>
+                <RWBGiantSnail>0.12</RWBGiantSnail>
+                <RWBCrystalCrab>0.1</RWBCrystalCrab>
+                <RWBRhinoBeetle>0.1</RWBRhinoBeetle>
+                <RWBSlime>0.07</RWBSlime>
+                <RWBVampireMoth>0.06</RWBVampireMoth>
+                <RWBPillbug>0.08</RWBPillbug>
+                <RWBCaveSpider>0.02</RWBCaveSpider>
+              </wildAnimals>
+            </value>
+          </li>
+          
+          
+        </operations>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

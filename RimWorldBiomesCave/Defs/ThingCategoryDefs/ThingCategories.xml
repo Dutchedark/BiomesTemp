@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>FoodsCavern</defName>
+    <label>cavern mushrooms</label>
+    <parent>FoodRaw</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>UI/Icons/ThingCategories/FoodRaw</iconPath><!--needs to be changed-->
+  </ThingCategoryDef>
+  
+</Defs>
