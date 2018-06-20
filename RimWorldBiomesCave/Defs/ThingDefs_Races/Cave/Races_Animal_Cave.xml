@@ -95,7 +95,7 @@
     <race>RWBBovineBeetle</race>
     <combatPower>80</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <EcoSystemWeight>0.05</EcoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -230,7 +230,7 @@
     <label>cave spider</label>
     <race>RWBCaveSpider</race>
     <combatPower>160</combatPower>
-    <ecoSystemWeight>0.6</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <canArriveManhunter>false</canArriveManhunter>
     <lifeStages>
       <li>
@@ -358,7 +358,7 @@
     <race>RWBCrystalCrab</race>
     <combatPower>95</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <EcoSystemWeight>0.05</EcoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -430,9 +430,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <trainability>Advanced</trainability>
       <wildness>0.4</wildness>
-      <leatherColor>(110,95,82)</leatherColor>
-      <leatherLabel>batskin</leatherLabel>
-      <leatherInsulation>0.4</leatherInsulation>
+      <leatherDef>Leather_Bat</leatherDef>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <gestationPeriodDays>14</gestationPeriodDays>
       <litterSizeCurve>
@@ -476,7 +474,7 @@
     <label>fruit Bat</label>
     <race>RWB_FruitBat</race>
     <combatPower>25</combatPower>
-    <EcoSystemWeight>0.25</EcoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -633,7 +631,7 @@
     <race>RWBGiantSnail</race>
     <combatPower>75</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <EcoSystemWeight>0.05</EcoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -747,7 +745,7 @@
     <race>RWBJellypotBug</race>
     <combatPower>25</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
-    <EcoSystemWeight>0.05</EcoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -868,7 +866,7 @@
     <race>RWBLureLizard</race>
     <combatPower>90</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <EcoSystemWeight>0.1</EcoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -997,7 +995,7 @@
     <race>RWBMaxolotl</race>
     <combatPower>85</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <EcoSystemWeight>0.1</EcoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -1080,9 +1078,7 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>0.85</baseHealthScale>
       <foodType>OmnivoreRoughAnimal, OvivoreAnimal</foodType>
-      <leatherColor>(117,117,117)</leatherColor>
-      <leatherLabel>mole skin</leatherLabel>
-      <leatherInsulation>1.0</leatherInsulation>
+      <leatherDef>Leather_Mole</leatherDef>
       <gestationPeriodDays>22.5</gestationPeriodDays>
       <trainability>Intermediate</trainability>
       <wildness>0.3</wildness>
@@ -1128,7 +1124,7 @@
     <label>mole</label>
     <race>RWBMole</race>
     <combatPower>65</combatPower>
-    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -1269,7 +1265,7 @@
     <race>RWBMossBeetle</race>
     <combatPower>30</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <ecoSystemWeight>10</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -1386,7 +1382,7 @@
     <race>RWBPaleLizard</race>
     <combatPower>45</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <ecoSystemWeight>0.4</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -1495,7 +1491,7 @@
     <race>RWBPillbug</race>
     <combatPower>210</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <ecoSystemWeight>0.05</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -1616,7 +1612,7 @@
     <race>RWBRhinoBeetle</race>
     <combatPower>95</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <ecoSystemWeight>0.05</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -1688,7 +1684,7 @@
       <baseHealthScale>2.2</baseHealthScale>
       <foodType>CarnivoreAnimalStrict</foodType>
       <gestationPeriodDays>22.5</gestationPeriodDays>
-      <trainability>none</trainability>
+      <trainability>Simple</trainability>
       <wildness>0.997</wildness>
       <lifeExpectancy>12</lifeExpectancy>
       <lifeStageAges>
@@ -1728,7 +1724,7 @@
     <label>slime</label>
     <race>RWBSlime</race>
     <combatPower>60</combatPower>
-    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -1843,7 +1839,7 @@
     <label>slug</label>
     <race>RWBSlug</race>
     <combatPower>10</combatPower>
-    <ecoSystemWeight>0.02</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -2005,7 +2001,7 @@
     <race>RWBSpectreShrimp</race>
     <combatPower>18</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <ecoSystemWeight>0.08</ecoSystemWeight>
+    <ecoSystemWeight>1</ecoSystemWeight>
     <wildGroupSize>
       <min>3</min>
       <max>3</max>
@@ -2087,9 +2083,7 @@
       <foodType>CarnivoreAnimal</foodType>
       <trainability>Advanced</trainability>
       <wildness>0.6</wildness>
-      <leatherColor>(110,95,82)</leatherColor>
-      <leatherLabel>batskin</leatherLabel>
-      <leatherInsulation>0.4</leatherInsulation>
+      <leatherDef>Leather_Bat</leatherDef>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <gestationPeriodDays>14</gestationPeriodDays>
       <litterSizeCurve>
@@ -2133,7 +2127,7 @@
     <label>vampire Bat</label>
     <race>RWB_VampireBat</race>
     <combatPower>45</combatPower>
-    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <ecoSystemWeight>0.1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -2258,7 +2252,7 @@
     <race>RWBVampireMoth</race>
     <combatPower>90</combatPower>
     <canArriveManhunter>true</canArriveManhunter>
-    <ecoSystemWeight>0.05</ecoSystemWeight>
+    <ecoSystemWeight>0.1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>

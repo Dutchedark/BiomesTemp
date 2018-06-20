@@ -6,10 +6,10 @@
     <description>A pale purple beet that has been genetically engineered to be able to burrow its roots through stone and survive off what little nutrients it can get in the caverns.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.16</nutrition>
+      <Nutrition>0.16</Nutrition>
     </statBases>
     <graphicData>
-      <texturePath>Plants/Crops/PaleBeets</texturePath>
+      <texPath>Plants/Crops/PaleBeets</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -45,10 +45,10 @@
     <description>This fungus has long been used as an herbal medicine analog by cavern dwellers. Its name comes from its use in staving off the end of mortality.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.15</nutrition>
+      <Nutrition>0.15</Nutrition>
     </statBases>
     <graphicData>
-      <texturePath>Plants/Crops/MortalMorel</texturePath>
+      <texPath>Plants/Crops/MortalMorel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -85,10 +85,10 @@
     <description>The lone tree species that has adapted to the dark environment of the caverns, this tree produces a citrus like fruit that glows in the dark. It is a considerable source of food and a favorite of the fruit bats that call the caverns home. </description>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
-      <nutrition>1.8</nutrition>
+      <Nutrition>1.8</Nutrition>
     </statBases>
     <graphicData>
-      <texturePath>Plants/Crops/GlowfruitTree</texturePath>
+      <texPath>Plants/Crops/GlowfruitTree</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -136,10 +136,10 @@
     <description>A large capped mushroom that produces an inky black cloth-like fiber.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.15</nutrition>
+      <Nutrition>0.15</Nutrition>
     </statBases>
     <graphicData>
-      <texturePath>Plants/Crops/InkCap</texturePath>
+      <texPath>Plants/Crops/InkCap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -176,10 +176,10 @@
     <description>Highly nutritious but inedible to humans, this mushroom is often grown as animal feed.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <graphicData>
-      <texturePath>Plants/Crops/KessingerMushroom</texturePath>
+      <texPath>Plants/Crops/KessingerMushroom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -215,10 +215,10 @@
     <description>This oddly sweet mushroom is a favorite of many cave dwelling colonies.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <graphicData>
-      <texturePath>Plants/Crops/DulcisMushroom</texturePath>
+      <texPath>Plants/Crops/DulcisMushroom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -255,10 +255,10 @@
     <description>This small mushroom tends to grow in small clusters and is often used by cavern dwelling humanoids to cause vivid hallucinations.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.15</nutrition>
+      <Nutrition>0.15</Nutrition>
     </statBases>
     <graphicData>
-      <texturePath>Plants/Crops/BluebellShroom</texturePath>
+      <texPath>Plants/Crops/BluebellShroom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>

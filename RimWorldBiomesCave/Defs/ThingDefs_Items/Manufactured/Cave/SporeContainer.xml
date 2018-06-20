@@ -5,7 +5,7 @@
     <label>spore container</label>
     <description>A container with a concentrated amount of deadly mushroom spores.</description>
     <graphicData>
-      <texturePath>Things/Manufactured/Caves/SporeContainer</texturePath>
+      <texPath>Things/Manufactured/Caves/SporeContainer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <useHitPoints>false</useHitPoints>

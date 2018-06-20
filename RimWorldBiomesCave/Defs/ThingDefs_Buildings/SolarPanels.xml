@@ -14,6 +14,9 @@
         <rect>(0,0.3,2,1.4)</rect>
       </damageData>
     </graphicData>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
@@ -24,6 +27,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>630</WorkToBuild>
       <Flammability>1.0</Flammability>
+      <Mass>20</Mass>
     </statBases>
     <tickerType>Normal</tickerType>
     <description>Produces electricity from sunlight. Does not work in the dark. A sligtly smaller version of the normal solarpanel, generates a slightly smaller amount but at least you can harness the sun through a smaller hole in the roof</description>
@@ -66,6 +70,9 @@
         <rect>(0,0.1,1,0.7)</rect>
       </damageData>
     </graphicData>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
@@ -76,6 +83,7 @@
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToBuild>215</WorkToBuild>
       <Flammability>1.0</Flammability>
+      <Mass>20</Mass>
     </statBases>
     <tickerType>Normal</tickerType>
     <description>Produces electricity from sunlight. Does not work in the dark. A really small version of the normal solarpanel, generates a lot less electricity, but at least you can harness the sun through a smaller hole in the roof</description>

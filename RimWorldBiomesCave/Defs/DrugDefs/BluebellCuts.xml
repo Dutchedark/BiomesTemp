@@ -9,17 +9,17 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <tickerType>Rare</tickerType>
     <graphicData>
-      <texturePath>Things/Drugs/BluebellCuts</texturePath>
+      <texPath>Things/Drugs/BluebellCuts</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>15</MarketValue>
       <Mass>0.1</Mass>
       <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <techLevel>Neolithic</techLevel>
     <ingestible>
-      <nutrition>0.20</nutrition>
       <baseIngestTicks>100</baseIngestTicks>
       <chairSearchRadius>4</chairSearchRadius>
       <preferability>NeverForNutrition</preferability>

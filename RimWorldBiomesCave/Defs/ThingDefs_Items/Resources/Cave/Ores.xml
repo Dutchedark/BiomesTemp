@@ -26,6 +26,10 @@
     <stackLimit>500</stackLimit>
     <smallVolume>true</smallVolume>
     <deepCommonality>1</deepCommonality>
+      <deepLumpSizeRange>
+        <min>1</min>
+        <max>2</max>
+      </deepLumpSizeRange>
     <stuffProps>
       <categories>
         <li>Metallic</li>
@@ -62,12 +66,6 @@
 	    <butcherProducts>
 	        <RWBCrystalShards>20</RWBCrystalShards>
 	    </butcherProducts>
-<!--        <comps>-->
-<!--            <li Class="CompProperties_Glower">-->
-<!--                <glowRadius>2</glowRadius>-->
-<!--                <glowColor>(170,219,255,0.5)</glowColor>-->
-<!--            </li>-->
-<!--        </comps>-->
 	</ThingDef>
 
 	<ThingDef ParentName="StoneBlocksBase">

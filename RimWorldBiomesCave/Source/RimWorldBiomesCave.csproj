@@ -217,6 +217,7 @@
     <Compile Include="CompProperties_IgnoreDeepWater.cs" />
     <Compile Include="CompProperties_ReactiveDefense.cs" />
     <Compile Include="CompProperties_Regenerate.cs" />
+    <Compile Include="CompProperties_TempThing.cs" />
     <Compile Include="CompProperties_Trail.cs" />
     <Compile Include="CompProperties_Vampire.cs" />
     <Compile Include="CompProperties_WaterAnimal.cs" />
@@ -226,6 +227,7 @@
     <Compile Include="CompVampire.cs" />
     <Compile Include="CompWaterAnimal.cs" />
     <Compile Include="CompWaterPlant.cs" />
+    <Compile Include="Comp_TempThing.cs" />
     <Compile Include="Comp_Trail.cs" />
     <Compile Include="GenStep_WaterAnimal.cs" />
     <Compile Include="GenStep_WaterPlant.cs" />

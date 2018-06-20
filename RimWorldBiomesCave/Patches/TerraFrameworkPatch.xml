@@ -15,10 +15,9 @@
           <!--<li Class="ModCheck.FindFile">
             <file>Biomes_Caves.xml</file>
           </li>-->
-          <li Class="PatchOperationReplace">
+          <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="CaveOasis"]/wildPlants</xpath>
             <value>
-              <wildPlants>
                 <MushroomCluster>8.0</MushroomCluster>
                 <SkullTop>0.001</SkullTop>
                 <Agarilux>0.4</Agarilux>
@@ -28,13 +27,11 @@
                 <GlowfruitTree>2.0</GlowfruitTree>
                 <SpectreCap>1.0</SpectreCap>
                 <StarlightShroom>1.5</StarlightShroom>
-              </wildPlants>
             </value>
           </li>
-          <li Class="PatchOperationReplace">
+          <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="CaveOasis"]/wildAnimals</xpath>
             <value>
-              <wildAnimals>
                 <RWBSlug>0.1</RWBSlug>
                 <RWBMossBeetle>0.1</RWBMossBeetle>
                 <RWBPaleLizard>2.0</RWBPaleLizard>
@@ -50,30 +47,26 @@
                 <RWBVampireMoth>0.06</RWBVampireMoth>
                 <RWBPillbug>0.08</RWBPillbug>
                 <RWBCaveSpider>0.02</RWBCaveSpider>
-              </wildAnimals>
             </value>
           </li>
 
-          <li Class="PatchOperationReplace">
+          <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="TunnelworldCave"]/wildPlants</xpath>
             <value>
-              <wildPlants>
-                <MushroomCluster>8.0</MushroomCluster>
+                <MushroomCluster>5.0</MushroomCluster>
                 <SkullTop>0.001</SkullTop>
                 <Agarilux>0.4</Agarilux>
-                <Bryolux>5.0</Bryolux>
+                <Bryolux>1.0</Bryolux>
                 <Glowstool>2.0</Glowstool>
                 <MushroomTree>3.0</MushroomTree>
-                <GlowfruitTree>2.0</GlowfruitTree>
+                <GlowfruitTree>1.8</GlowfruitTree>
                 <SpectreCap>1.0</SpectreCap>
                 <StarlightShroom>1.5</StarlightShroom>
-              </wildPlants>
             </value>
           </li>
-          <li Class="PatchOperationReplace">
+          <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="TunnelworldCave"]/wildAnimals</xpath>
             <value>
-              <wildAnimals>
                 <RWBSlug>0.1</RWBSlug>
                 <RWBMossBeetle>0.1</RWBMossBeetle>
                 <RWBPaleLizard>2.0</RWBPaleLizard>
@@ -89,7 +82,18 @@
                 <RWBVampireMoth>0.06</RWBVampireMoth>
                 <RWBPillbug>0.08</RWBPillbug>
                 <RWBCaveSpider>0.02</RWBCaveSpider>
-              </wildAnimals>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/BiomeDef[defName="TunnelworldCave"]/plantDensity</xpath>
+            <value>
+              <plantDensity>0.8</plantDensity>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <xpath>/Defs/BiomeDef[defName="TunnelworldCave"]/animalDensity</xpath>
+            <value>
+              <animalDensity>0.6</animalDensity>
             </value>
           </li>
 
@@ -131,7 +135,6 @@
           <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="InfestedMountains"]/wildPlants</xpath>
             <value>
-              <wildPlants>
                 <MushroomCluster>8.0</MushroomCluster>
                 <SkullTop>0.001</SkullTop>
                 <Agarilux>0.4</Agarilux>
@@ -141,13 +144,11 @@
                 <GlowfruitTree>2.0</GlowfruitTree>
                 <SpectreCap>1.0</SpectreCap>
                 <StarlightShroom>1.5</StarlightShroom>
-              </wildPlants>
             </value>
           </li>
           <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="InfestedMountains"]/wildAnimals</xpath>
             <value>
-              <wildAnimals>
                 <RWBSlug>0.1</RWBSlug>
                 <RWBMossBeetle>0.1</RWBMossBeetle>
                 <RWBPaleLizard>2.0</RWBPaleLizard>
@@ -163,14 +164,12 @@
                 <RWBVampireMoth>0.06</RWBVampireMoth>
                 <RWBPillbug>0.08</RWBPillbug>
                 <RWBCaveSpider>0.02</RWBCaveSpider>
-              </wildAnimals>
             </value>
           </li>
 
           <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="DeepRavine"]/wildPlants</xpath>
             <value>
-              <wildPlants>
                 <MushroomCluster>8.0</MushroomCluster>
                 <SkullTop>0.001</SkullTop>
                 <Agarilux>0.4</Agarilux>
@@ -180,13 +179,11 @@
                 <GlowfruitTree>2.0</GlowfruitTree>
                 <SpectreCap>1.0</SpectreCap>
                 <StarlightShroom>1.5</StarlightShroom>
-              </wildPlants>
             </value>
           </li>
           <li Class="PatchOperationAdd">
             <xpath>/Defs/BiomeDef[defName="DeepRavine"]/wildAnimals</xpath>
             <value>
-              <wildAnimals>
                 <RWBSlug>0.1</RWBSlug>
                 <RWBMossBeetle>0.1</RWBMossBeetle>
                 <RWBPaleLizard>2.0</RWBPaleLizard>
@@ -202,11 +199,9 @@
                 <RWBVampireMoth>0.06</RWBVampireMoth>
                 <RWBPillbug>0.08</RWBPillbug>
                 <RWBCaveSpider>0.02</RWBCaveSpider>
-              </wildAnimals>
             </value>
           </li>
-          
-          
+                    
         </operations>
       </li>
     </operations>

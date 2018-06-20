@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <DamageDef ParentName="LocalInjuryBase">
+  <DamageDef ParentName="BluntBase">
     <defName>AcidAttack</defName>
     <workerClass>DamageWorker_Flame</workerClass>
     <label>Acid</label>
@@ -12,15 +12,13 @@
     <hediff>Burn</hediff>
     <hediffSolid>Crack</hediffSolid>
     <armorCategory>Heat</armorCategory>
-    <spreadOut>true</spreadOut>
-    <explosionDamage>50</explosionDamage>
+    <defaultDamage>50</defaultDamage>
     <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
-    <explosionBuildingDamageFactor>2</explosionBuildingDamageFactor>
-    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
     <explosionColorCenter>(0.6, 0.8, 0.1 )</explosionColorCenter>
     <explosionColorEdge>(0.6, 1, 0.3)</explosionColorEdge>
     <soundExplosion>Explosion_Flame</soundExplosion>
     <combatLogRules>Damage_Flame</combatLogRules>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
   </DamageDef>
 </Defs>

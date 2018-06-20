@@ -7,7 +7,7 @@
     <description>A strange aquatic plant that glows, usually grows in sea water and is a nutrious plant for sea creatures.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.50</nutrition>
+      <Nutrition>0.50</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Plants/Cave/GlowingKelp</texPath>
@@ -66,7 +66,7 @@
     <description>A strange aquatic fungus that has adapted jointed fungal plating to deter smaller predators.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.15</nutrition>
+      <Nutrition>0.15</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Plants/Cave/WaterFungus</texPath>
@@ -126,7 +126,7 @@
     <description>Wild Mushrooms. Grows anywhere there is a little light and minimally fertile ground.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.25</nutrition>
+      <Nutrition>0.25</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Plants/Cave/Mushroom_Cluster</texPath>
@@ -150,9 +150,10 @@
       </visualSizeRange>
       <topWindExposure>0.4</topWindExposure>
       <neverBlightable>true</neverBlightable>
-      <wildClusterRadius>8</wildClusterRadius>
-      <wildClusterWeight>100</wildClusterWeight>
+      <wildClusterRadius>2</wildClusterRadius>
+      <wildClusterWeight>10</wildClusterWeight>
       <wildOrder>1</wildOrder>
+      <cavePlant>true</cavePlant>
     </plant>
   </ThingDef>
   
@@ -194,7 +195,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.2</nutrition>
+      <Nutrition>0.2</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Plants/Cave/SpectreCap</texPath>
@@ -241,7 +242,7 @@
     <description>A deep blue capped mushroom whose spots reflect the smallest bit of light which gives it the appearance of a night sky.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.25</nutrition>
+      <Nutrition>0.25</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Plants/Cave/StarlightShroom</texPath>
@@ -283,7 +284,7 @@
     <description>This purple capped mushroom is perhaps the most dangerous in the caverns due to its ability to release toxic spores that rapidly poison anything alive if they are close enough. Its spores are used to create toxic weapons and traps.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0</nutrition>
+      <Nutrition>0</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Plants/Cave/Skulltop</texPath>
@@ -307,7 +308,6 @@
       <growDays>2.5</growDays>
       <dieIfLeafless>true</dieIfLeafless>
       <sowMinSkill>21</sowMinSkill>
-      <harvestWork>40</harvestWork>
       <visualSizeRange>
         <min>1</min>
         <max>1.5</max>

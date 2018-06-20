@@ -7,7 +7,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>AcidAttack</meleeDamageDef>
     </verb>
-    <combatLogRules>Maneuver_Smash</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
 
   <ManeuverDef>
@@ -17,7 +21,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>RWBSpiderBite</meleeDamageDef>
     </verb>
-    <combatLogRules>Bite</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
 
   <ManeuverDef>
@@ -27,6 +35,10 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>RWBVampireBite</meleeDamageDef>
     </verb>
-    <combatLogRules>Bite</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
 </Defs>

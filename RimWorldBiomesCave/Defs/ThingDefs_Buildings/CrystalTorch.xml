@@ -47,6 +47,5 @@
     </comps>
     <designationCategory>Furniture</designationCategory>
     <designationHotKey>Misc10</designationHotKey>
-    <minifiedDef>MinifiedThing</minifiedDef>
   </ThingDef>
 </Defs>

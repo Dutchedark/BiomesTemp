@@ -141,11 +141,11 @@
       </graphicData>
       <statBases>
           <MarketValue>1.3</MarketValue>
+          <Nutrition>0.05</Nutrition>
       </statBases>
       <ingestible>
           <preferability>RawTasty</preferability>
           <tasteThought></tasteThought>
-          <nutrition>0.05</nutrition>
           <joyKind>Gluttonous</joyKind>
           <ingestEffect>EatVegetarian</ingestEffect>
           <ingestSound>RawVegetable_Eat</ingestSound>

@@ -4,7 +4,7 @@
     <defName>MineableCrystal</defName>
     <label>compacted crystal</label>
     <graphicData>
-      <texturePath>Buildings/Ore/Crystal</texturePath>
+      <texPath>Buildings/Ore/Crystal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(170,219,255)</color>
@@ -45,7 +45,7 @@
     <defName>MineableCoal</defName>
     <label>coal deposit</label>
     <graphicData>
-      <texturePath>Things/Building/Linked/RockFlecked_Atlas</texturePath>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(70,70,70)</color>
