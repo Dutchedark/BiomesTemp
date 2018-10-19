@@ -18,7 +18,7 @@ namespace RimWorldBiomesCave
             harmony.Patch(AccessTools.Method(typeof(Mineable), "TrySpawnYield"), null, new HarmonyMethod(typeof(Harmony_BiomePatches), nameof(TrySpawnYield_PostFix)));
             harmony.Patch(AccessTools.Method(typeof(JobGiver_GetFood), "TryGiveJob"), null, new HarmonyMethod(typeof(Harmony_BiomePatches), nameof(TryGiveJob_PostFix)));
             harmony.Patch(AccessTools.Method(typeof(PlantProperties), "get_IsTree"), null, new HarmonyMethod(typeof(Harmony_BiomePatches), nameof(Get_IsTree_PostFix)));
-            harmony.Patch(AccessTools.Method(typeof(GenPlant), "CanEverPlantAt"), null, new HarmonyMethod(typeof(Harmony_BiomePatches), nameof(CanEverPlantAt_PostFix)));
+            //harmony.Patch(AccessTools.Method(typeof(GenPlant), "CanEverPlantAt"), null, new HarmonyMethod(typeof(Harmony_BiomePatches), nameof(CanEverPlantAt_PostFix)));
             harmony.Patch(AccessTools.Method(typeof(GenStep_ScatterLumpsMineable), "ScatterAt"), new HarmonyMethod(typeof(Harmony_BiomePatches), nameof(ScatterAt_PreFix)), null);
         }
        

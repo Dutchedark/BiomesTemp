@@ -10,7 +10,7 @@ namespace RimWorldBiomesCave
 {
     public class JobDriver_SpinCocoon : JobDriver
     {
-        private bool notifiedPlayer;
+       private bool notifiedPlayer;
 
         private bool firstHit = true;
 
@@ -39,7 +39,7 @@ namespace RimWorldBiomesCave
             return currentActivity;
         }
 
-        public override bool TryMakePreToilReservations()
+        public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
             return true;
         }

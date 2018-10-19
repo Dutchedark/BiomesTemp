@@ -6,9 +6,11 @@ using UnityEngine;
 
 namespace RimWorldBiomesCave
 {
-    public abstract class GenStep_WaterPlant : GenStep
+    public class GenStep_WaterPlant : GenStep
     {
-        public override void Generate(Map map)
+        public override int SeedPart {get; }
+        
+        public override void Generate(Map map, GenStepParams parms)
         {
             //Log.Error("running");
             List<ThingDef> source = (from x in DefDatabase<ThingDef>.AllDefsListForReading
@@ -81,6 +83,7 @@ namespace RimWorldBiomesCave
 
             }
         }
+        
 
         private bool IsWater(IntVec3 pos, Map map)
         {

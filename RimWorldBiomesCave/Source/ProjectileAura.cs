@@ -55,7 +55,7 @@ namespace RimWorldBiomesCave
             float explosionRadius = this.def.projectile.explosionRadius;
             DamageDef damageDef = this.def.projectile.damageDef;
             Thing launcher = this.launcher;
-            int damageAmountBase = this.def.projectile.DamageAmount;
+            int damageAmountBase = damageDef.defaultDamage;
             SoundDef soundExplode = this.def.projectile.soundExplode;
             ThingDef equipmentDef = this.equipmentDef;
             ThingDef def = this.def;
@@ -64,7 +64,7 @@ namespace RimWorldBiomesCave
             float postExplosionSpawnChance = this.def.projectile.postExplosionSpawnChance;
             int postExplosionSpawnThingCount = this.def.projectile.postExplosionSpawnThingCount;
             ThingDef preExplosionSpawnThingDef = this.def.projectile.preExplosionSpawnThingDef;
-            GenExplosion.DoExplosion(position, map2, explosionRadius, damageDef, launcher, damageAmountBase, soundExplode, equipmentDef,
+            GenExplosion.DoExplosion(position, map2, explosionRadius, damageDef, launcher, damageAmountBase,0, soundExplode, equipmentDef,
                 def,null, postExplosionSpawnThingDef, postExplosionSpawnChance, postExplosionSpawnThingCount, this.def.projectile.applyDamageToExplosionCellsNeighbors,
                 preExplosionSpawnThingDef, this.def.projectile.preExplosionSpawnChance, this.def.projectile.preExplosionSpawnThingCount,
                 this.def.projectile.explosionChanceToStartFire, this.def.projectile.explosionDamageFalloff);

@@ -6,10 +6,12 @@ using UnityEngine;
 
 namespace RimWorldBiomesCave
 {
-    public abstract class GenStep_WaterAnimal : GenStep
+    public class GenStep_WaterAnimal : GenStep
     {
+        
+        public override int SeedPart {get; }
 
-        public override void Generate(Map map){
+        public override void Generate(Map map, GenStepParams parms){
             //Log.Error("running");
 			List<PawnKindDef> source = (from x in DefDatabase<PawnKindDef>.AllDefsListForReading
 									 where x.race.GetCompProperties<CompProperties_WaterAnimal>() != null
