@@ -254,7 +254,7 @@
         </li>
 
         <!-- Of neutral faction: rest and then exit the map -->
-        <li Class="ThinkNode_ConditionalNeutralFaction">
+        <li Class="ThinkNode_ConditionalNonPlayerNonHostileFaction">
           <subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>RestingForMedicalReasons</tagToGive>
@@ -321,7 +321,7 @@
             <li Class="ThinkNode_ConditionalHasFaction">
               <invert>true</invert>
               <subNodes>
-                <li Class="JobGiver_FleeImmediateDanger" />
+                <li Class="JobGiver_AnimalFlee" />
               </subNodes>
             </li>
 

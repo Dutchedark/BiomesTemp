@@ -36,7 +36,6 @@
 			<MarketValue>200</MarketValue>
 			<Mass>1</Mass>
 			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
-      		<Weapon_Bulk>0.2</Weapon_Bulk>
 		</statBases>
 		<weaponTags>
 			<li>GrenadeDestructive</li>
@@ -111,7 +110,6 @@
 	        <MarketValue>400</MarketValue>
 	        <Mass>1</Mass>
 	        <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
-	        <Weapon_Bulk>0.2</Weapon_Bulk>
 	    </statBases>
 	    <weaponTags>
 	        <li>GrenadeDestructive</li>

@@ -39,9 +39,8 @@
           <li>WaterDeep</li>
           <li>WaterOceanShallow</li>
           <li>WaterOceanDeep</li>
-          <li>WaterSloping</li>
-          <li>WaterOceanSloping</li>
-          <li>WaterMovingSloping</li>
+          <li>WaterMovingChestDeep</li>
+          <li>WaterMovingShallow</li>
         </allowedTiles>
         <spawnChance>0.03</spawnChance>
         <allowedBiomes>
@@ -101,9 +100,8 @@
           <li>WaterDeep</li>
           <li>WaterOceanShallow</li>
           <li>WaterOceanDeep</li>
-          <li>WaterSloping</li>
-          <li>WaterOceanSloping</li>
-          <li>WaterMovingSloping</li>
+          <li>WaterMovingChestDeep</li>
+          <li>WaterMovingShallow</li>
         </allowedTiles>
         <spawnChance>0.07</spawnChance>
         <allowedBiomes>
@@ -137,7 +135,7 @@
     <ingestible>
     </ingestible>
     <plant>
-      <lifespanFraction>10</lifespanFraction>
+      <lifespanDaysPerGrowDays>10</lifespanDaysPerGrowDays>
       <fertilityMin>0.01</fertilityMin>
       <fertilitySensitivity>0.15</fertilitySensitivity>
       <growDays>2</growDays>

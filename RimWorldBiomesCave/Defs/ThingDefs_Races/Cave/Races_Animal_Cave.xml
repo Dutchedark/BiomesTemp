@@ -34,7 +34,7 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -142,7 +142,7 @@
         </capacities>
         <power>11</power>
         <cooldownTime>1.65</cooldownTime>
-        <commonality>2</commonality>
+        <chanceFactor>2</chanceFactor>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -170,7 +170,7 @@
         </capacities>
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -311,7 +311,7 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -416,7 +416,7 @@
         </capacities>
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       </li>
     </tools>
@@ -540,7 +540,7 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -550,7 +550,7 @@
         <power>6</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -692,7 +692,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -790,7 +790,7 @@
         <power>6</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -919,7 +919,7 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -1068,7 +1068,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -1208,7 +1208,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
 
       </li>
     </tools>
@@ -1332,7 +1332,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -1440,7 +1440,7 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -1543,7 +1543,7 @@
         <power>11</power>
         <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
       <li>
         <capacities>
@@ -1561,7 +1561,7 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -1672,7 +1672,7 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -1780,7 +1780,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -1924,7 +1924,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -2071,7 +2071,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -2206,7 +2206,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>

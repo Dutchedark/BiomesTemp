@@ -36,7 +36,7 @@
     <costList>
       <RWBCrystalShards>25</RWBCrystalShards>
     </costList>
-    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <comps>
